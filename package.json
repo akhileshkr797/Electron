@@ -1,0 +1,19 @@
+{
+    "name": "electron",
+    "version": "1.0.0",
+    "description": "First on GitHub\r //this is just for testing",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akhileshkr797/Electron.git"
+    },
+    "author": "akhi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/akhileshkr797/Electron/issues"
+    },
+    "homepage": "https://github.com/akhileshkr797/Electron#readme"
+}

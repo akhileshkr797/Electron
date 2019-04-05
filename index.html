@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title></title>
+</head>
+
+<body>
+    <h3>Electron Sample Project</h3>
+    <p>
+        Our “should open a working window” test makes sure that the window we create is visible, is focused, is not minimized and does not have Dev Tools open. Let’s see how that works. First, we again are waiting until the application window has loaded with
+        Spectron’s app.client.waitUntilWindowLoaded call. After that, we have chained together several calls to the browserWindow API to get some information. First, we call browserWindow. isVisible that returns a promise in which we run our test. Next,
+        we call browserWindow.isFocused to assess whether the window is focused. Next, browserWindow.isMinimized is called to test whether the window has been minimized on launch. And, finally, we use browser.isDevToolsOpened to make sure the Dev Tools
+        aren’t opened. Coinicidentally, this is a very practical test seeing as you might run these tests before checking your code into a repository. It would prevent you from committing code that displays the Dev Tools. Let’s run our tests and see the
+        output in the terminal application. Save the test file and run the npm test command (Figure 14-3).
+    </p>
+
+</body>
+<script>
+    require('./renderer.js')
+</script>
+
+</html>

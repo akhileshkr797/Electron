@@ -1,0 +1,17 @@
+body {
+    border: 1px solid yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: red;
+    text-decoration: underline;
+}
+
+p {
+    color: blueviolet;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid green;
+}
