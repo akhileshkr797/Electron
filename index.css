@@ -7,6 +7,7 @@ body {
 h3 {
     color: red;
     text-decoration: underline;
+    margin: 15px;
 }
 
 p {
@@ -14,8 +15,18 @@ p {
     margin: 0 auto;
     padding: 10px;
     border: 2px solid green;
+    margin: 20px;
 }
 
 p:hover {
-    color: red;
+    color: rgb(45, 223, 45);
+}
+
+button {
+    color: rgb(255, 102, 0);
+    padding: 5px;
+    border: 2px solid green;
+    font-size: 16px;
+    background-color: rgb(233, 227, 227);
+    margin: 10px;
 }
