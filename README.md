@@ -1,3 +1,3 @@
 # Electron
 First on GitHub
-//this is just for testing
+// This is just a Practise for ELECTRON
