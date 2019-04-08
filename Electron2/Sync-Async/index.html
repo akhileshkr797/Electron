@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+</head>
+
+<body style="text-align:center">
+
+    <h3>Welcome To Electron</h3>
+    <p>Electron is a blend of two incredibly popular technologies: Node.js (or simply Node) and Chromium. Thus, any web application you have written can run on Electron. Similarly, any Node application you have written can run on Electron. But the power
+        of Electron is that you can use both solutions together. This book is about how to use these two technologies together to create rich and engaging desktop applications. For example, we have been developing a simple desktop application that will
+        assist developers generate their manifest.json file for their Progressive Web Apps.
+    </p>
+
+    <div id="sync-msg">
+        <button id="syncBtn"> Sync Msg</button>
+        <p id="syncReply"> Did you hear me?</p>
+    </div>
+
+    <div id="async-msg">
+        <button id="asyncBtn"> Async Msg</button>
+        <p id="asyncReply">Heard me again?????</p>
+    </div>
+
+</body>
+
+<script>
+    require('./renderer.js')
+</script>
+
+</html>

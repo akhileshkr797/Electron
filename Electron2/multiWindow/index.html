@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title></title>
+</head>
+
+<body>
+
+    <h3>Electron Demo</h3>
+    <p>
+        Unlike the application menu, where a default one is included, there is no default contextual menu built in. This functionality must be completely written by us. However, since the user action occurs within the window itself, the click event is occurring
+        within the Renderer Process. But, the Menu and MenuItem modules can only be directly used by the Main Process. We can’t directly mix using APIs that are allowed in the specific processes. There are two solutions to this problem of using an API
+        in a different process. The first solution is to leverage the Remote module. From the documentation, the remote module provides a simple way to do inter-process communication (IPC) between the renderer process (web page) and the main process.
+    </p>
+</body>
+<script>
+    require('./renderer.js')
+</script>
+
+</html>

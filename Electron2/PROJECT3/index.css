@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#IPCmsg {
+    width: 48%;
+    height: 120px;
+    background-color: #ccc;
+    border: 1px solid gray;
+    float: left;
+    margin: 10px;
+}
+
+h4 {
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    padding: 3px;
+    font-size: 16px;
+    margin: 0 auto;
+    color: red;
+    border: 2px solid yellow;
+}
+
+p {
+    border: 1px solid green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+}
+
+#iframe {
+    padding: 3px;
+    border: 2px solid red;
+}

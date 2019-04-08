@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./index.css">
+
+</head>
+
+<body>
+    <h3>Electron Demo</h3>
+    <p>
+        Of course, the first line is our first console log call that returns an empty array. The second line is where things get interesting. Inside the array is a WebContents object that is represented here in a naked kind of way. You can see that there is a
+        history array that would hold objects representing the pages loaded by this window. The currentIndex, pendingIndex and inPageIndex are how the WebContents tracks the history. The next set of lines is an object that contains references to internal
+        events that WebContents uses. Finally, at the bottom is the browserWindowOptions object that shows the options that were specified when our window was created. Let’s test this out.
+    </p>
+
+    <div id="IPCmsg">
+        <h4>Sync IPC Msg</h4>
+        <button id="syncBtn">Sync Click</button>
+        <p id="syncReply">Sync Response</p>
+    </div>
+
+    <div id="IPCmsg">
+        <h4>Async IPC Msg</h4>
+        <button id="asyncBtn">Async Click</button>
+        <p id="asyncReply">Async Response</p>
+    </div>
+
+
+
+    <button id="pdfSave"> Save PDF</button>
+    <button id="print-pdf"> Open PDF </button>
+    <p id="pdf-path">PDF Path will be displayed here..</p>
+
+    <!--
+    <div id="iframe">
+        <h2>Electron iframe/webView</h2>
+        <webview id="foo" src="http://www.google.com" style="display:inline-flex; width:90%; height:250px"></webview>
+    </div>
+    -->
+
+</body>
+<script>
+    require('./renderer.js')
+</script>
+
+</html>

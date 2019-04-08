@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+#foo {
+    padding: 3px;
+    border: 2px solid gray;
+    margin: 0 auto;
+    display: none;
+}
+
+button {
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid green;
+    margin-top: 15px;
+}
+
+#p01 {
+    border: 1px solid rgb(148, 252, 88);
+    margin: 15px auto;
+    text-align: center;
+    color: rgb(15, 153, 153);
+}
