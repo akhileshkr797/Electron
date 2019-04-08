@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    border: 2px solid green;
+    color: rgb(189, 15, 82);
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+h3 {
+    color: blueviolet;
+    font-family: cursive;
+}
+
+p {
+    color: rgb(75, 69, 69);
+}

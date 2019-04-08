@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h2>Electron Dialog Box</h2>
+    <p>The Electron dialog module provides us with the ability to display native system-level dialogs, including file open, file save, and various alerts. If you have written traditional web apps, you will know that these types of dialogs are not all available
+        to you. In this chapter, we will look at the three dialog types and many of the parameters we can control. The Dialog module is restricted to the Main process, meaning to interact with it we will either need to call its methods from a menu event,
+        via the Inter-Process Communication (IPC) module from the Renderer process, or by using the Remote module (as seen in a previous chapter).
+    </p>
+
+    <div>
+        <label id='pdf-path'></label><br>
+        <button id="print-pdf">Click to open PDF</button>
+    </div>
+</body>
+<script>
+    require('./renderer.js')
+</script>
+
+</html>

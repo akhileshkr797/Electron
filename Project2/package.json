@@ -1,0 +1,11 @@
+{
+    "name": "project2",
+    "version": "1.0.0",
+    "description": "Splash Window",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "Akhilesh",
+    "license": "ISC"
+}

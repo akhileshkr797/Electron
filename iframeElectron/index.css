@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+}
+
+h3 {
+    color: aqua;
+}
+
+#circle {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    background-color: rgb(198, 147, 247);
+    color: yellow;
+    border: 1px solid green;
+    text-align: center;
+    margin-left: 75px;
+}
+
+#circle p {
+    margin-top: 50px;
+}
+
+
+/* webview--iFrame */
+
+#foo {
+    margin: 0 auto;
+    border: 2px solid grey;
+    padding: 5px;
+}

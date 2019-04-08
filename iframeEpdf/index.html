@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+
+    <div>
+
+        <p>
+            <h3>Electron PDF </h3>
+
+            Once we have the desktop path, we combine it with the title of the window and add “-captured-file. png” to it. Please observe that the desktop path does not end in a trailing “/”, which is why we’ve added it between the desktop path and the window title.
+            And, then we call the NativeImage method toPNG(), which converts the image of our window into a variable named png. Now that we have the png and the path to where we’d like to save it, all we need to do is save the png file. This is where
+            the FS module comes in. Using the writeFileSync method and passing the path and the png, we trigger a write function that will either work or throw an error.
+        </p>
+    </div>
+
+    <button id="generateReport">Generate Report</button>
+    <p id="details"></p>
+
+    <script>
+        require('./renderer.js')
+    </script>
+</body>
