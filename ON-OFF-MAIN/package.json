@@ -1,0 +1,19 @@
+{
+    "name": "on-off-main",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "keywords": [
+        "electron",
+        "online",
+        "offline"
+    ],
+    "author": "akhilesh",
+    "license": "ISC",
+    "dependencies": {
+        "is-online": "^8.1.0"
+    }
+}
