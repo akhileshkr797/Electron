@@ -1,0 +1,26 @@
+body {
+    font-family: cursive;
+}
+
+#seachContainer {
+    border: 2px solid yellow;
+    padding: 5px;
+}
+
+#iframe1 {
+    color: rgb(133, 71, 71);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 238, 238);
+}
+
+h3 {
+    color: green;
+    text-decoration: aqua;
+}
+
+h4 {
+    color: red;
+    text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title></title>
+</head>
+
+<body style="text-align:center">
+    <p id="p02">
+
+        <h4>Electron iframe/webView</h4>
+
+
+        You can control background color of search window by adding background-color (in above, white is specified). You can customize CSS further (please see below 'Customization' section).
+        <br> Please see example's style for live example.
+        <br> The search window contains 'back' button, 'forward' button, 'close' button and query form. Application users can input a query and click them (or press enter key in the form) to start the in-page search. Repeating to press enter key or clicking
+        'back'/'forward' buttons moves a focus on hit words. Finally the users can close a search window by clicking 'close' button to stop the search.
+        <br> After a search window closing, the window's class property will be electron-in-page-search-window search-inactive again.
+        <br> The search window webview is mounted to document.body (or an element specified with searchWindowParent option). When you want to destroy InPageSearch instance, please ensure to call .finalize() method. It will unmount the search window webview
+        from DOM.
+        <br>
+        <br> This package provides Chrome's native in-page search feature to Electron applications. Electron exposes Chrome's native API to JavaScript. But native in-page search API has some pitfalls and stateful. So this package wraps it and provide
+        provide more easy, pitfall-free APIs.
+
+    </p>
+
+</body>
+<script>
+    require('./renderer.js')
+</script>
+
+</html>

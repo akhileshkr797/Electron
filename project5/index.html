@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title></title>
+</head>
+
+<body style="text-align:center;">
+    <h3>Electron Seach-Page Demo</h3>
+    <p id="p01">
+        This package provides Chrome's native in-page search feature to Electron applications. Electron exposes Chrome's native API to JavaScript. But native in-page search API has some pitfalls and stateful. So this package wraps it and provide provide more
+        easy, pitfall-free APIs.
+    </p>
+
+    <div id="seachContainer">
+        <webview id="iframe1" src="./iframe.html" style="display:inline-flex; width:90%; height:350px"></webview>
+    </div>
+
+
+
+</body>
+<script>
+    require('./renderer.js')
+</script>
+
+</html>
